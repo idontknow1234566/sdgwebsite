@@ -1,0 +1,48 @@
+<!DOCTYPE html> 
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title> Organisations </title>
+		<link rel= "stylesheet" type= "text/css" href = "style.css"> 
+		<link rel= "stylesheet" type= "text/css" href = "adaptive.css">
+	</head>
+	<body id= "main">
+		<div id="menu" onClick="menu()">
+			<div class="el_menu"  id="first" ><a href="index.html">What are the SDG? </a></div>
+			<div class="el_menu"><a href="problems.html"> Problems </a> </div>
+			<div class="el_menu"><a href="solutions.html"> Solutions </a></div>
+			<div class="el_menu"><a href="progress.html"> Progress </a></div>
+			<div class="el_menu"><a href="organisations.html"> Organisations </a></div>
+		</div>
+		<div id="name">
+			<h2> The 1st Sustainable Development goal </h2>
+		</div>
+		<div id= "text5">
+			<h1> Organizations that help achieve the goal </h1>
+			<p>
+			There are many organisations that are helping the world to achieve the 17 SDG. Those mainly include the United Nations, Greenpeace and many small charities. Also, there exists an organization that is responsible for reducing poverty and promoting sustainable development. It is the United Nations Development Programme, or UNDP.
+			</p>
+			<p>
+			The organisations' websites all have suggestions on how we can help the UN with achieving the SD goals. I encourage you to look at some of them so that we can all help to end poverty
+			</p>
+			<div id="un">
+				<img id="un" src="UN.png">
+			</div>
+		</div>
+		<div id="links"> <a href="links.html">
+			Links
+		</div>
+		<a class= "aaa" href="#main"> 
+			<img src="upload.png">
+		</a>
+		<script>
+			function menu(){ 
+				const elements = document.querySelectorAll('.el_menu');
+				elements.forEach(function(element) {
+					if (element.className == "el_menu") { element.className += " menu_top_sub_appear";
+					} else { element.className = "el_menu"; } 
+					}); 
+			}
+		</script>
+	</body>
+</html>

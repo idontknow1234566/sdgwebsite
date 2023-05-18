@@ -1,0 +1,104 @@
+@media (max-width: 1440px) {
+	body{
+		font-size: 30px;
+	}
+	#main .main_inner h1{
+		font-size: 100px;
+	}
+	body{
+		font-size: 32px;
+		flex-wrap: wrap;
+	}
+}
+@media (max-width: 1080px) {
+	body{
+		font-size: 28px;
+	}
+	#main .main_inner h1{
+		font-size: 100px;
+	}
+}
+@media (max-width: 768px) {
+	body{
+		font-size: 24px;
+		flex-wrap: wrap;
+	}
+	#main{
+		margin-left: 0px;
+		width: 100%;
+		display: block;
+	}
+	#main .main_inner h1{
+		font-size: 100px;
+	}
+	#menu{
+		display: block;
+		width: 100px;
+		height: 100px;
+		content: '';
+		background: url("menu.png");
+		background-size: 100%; 
+	}
+	.el_menu{
+		display: none;
+		width: 200px;
+	}
+	.menu_top_sub_appear{
+		display: block;
+	}
+	#first {
+		margin-top: 100px;
+	}
+	#part1 {
+		margin-top: 0px;
+		display: block;
+	}
+	#text { 
+		width: 100%;
+	}
+	#name {
+		margin-top: 100px;
+	}
+	.text2 {
+		margin-left: 10px;
+		flex-wrap: wrap;
+		width: 100%;
+	}
+	#image2 {
+		display: block;
+	}
+	#page4 {
+		display: block;
+	}
+	#page2part2 {
+		display: block;
+	}
+	#progressimage {
+		width: auto;
+	}
+	#endpoverty {
+		width: 100%;
+	}
+}
+@media (max-width: 425px) {
+	body{
+		font-size: 18px;
+	}
+	#main .main_inner h1{
+		font-size: 100px;
+	}
+	#image3 {
+		width: 425px;
+	}
+	#image3 img {
+		width: 100%;
+	}
+}
+@media (max-width: 320px) {
+	body{
+		font-size: 14px;
+	}
+	#main .main_inner h1{
+		font-size: 100px;
+	}
+}

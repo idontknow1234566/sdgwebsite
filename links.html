@@ -1,0 +1,40 @@
+<!DOCTYPE html> <html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title> Links </title>
+		<link rel= "stylesheet" type= "text/css" href = "style.css"> 
+		<link rel= "stylesheet" type= "text/css" href = "adaptive.css">
+	</head>
+	<body id= "main">
+		<div id="menu" onClick="menu()">
+			<div class="el_menu"  id="first" ><a href="index.html">What are the SDG? </a></div>
+			<div class="el_menu"><a href="problems.html"> Problems </a> </div>
+			<div class="el_menu"><a href="solutions.html"> Solutions </a></div>
+			<div class="el_menu"><a href="progress.html"> Progress </a></div>
+			<div class="el_menu"><a href="organisations.html"> Organisations </a></div>
+		</div>
+		<div id="name">
+			<h2> The 1st Sustainable Development goal </h2>
+		</div>
+		<div id="resources">
+			<h3> Here are some resources that were used for this website.I encourage you to look through them.</h3>
+			<p> <a href="https://www.un.org/sustainabledevelopment/poverty/"> Goal 1: No Poverty - UN </a> </p>
+			<p> <a href="https://www.wider.unu.edu/publication/estimates-impact-covid-19-global-poverty"> Estimates on the impact of COVID-19 on global poverty </a> </p>
+			<p> <a href="https://indicators.report/goals/goal-1/"> Targets for the UN </a> </p> 
+			<p> <a href="https://www.worldbank.org/en/news/press-release/2018/09/19/decline-of-global-extreme-poverty-continues-but-has-slowed-world-bank"> Decline of global poverty</a> </p>
+			<p> <a href="https://www.usatoday.com/story/money/economy/2018/10/10/faces-poverty-social-racial-factors/37977173/"> </a> Poverty and danger groups </p>
+		</div>
+		<a class= "aaa" href="#main"> 
+			<img src="upload.png">
+		</a>
+		<script>
+			function menu(){ 
+				const elements = document.querySelectorAll('.el_menu');
+				elements.forEach(function(element) {
+					if (element.className == "el_menu") { element.className += " menu_top_sub_appear";
+					} else { element.className = "el_menu"; } 
+					}); 
+			}
+		</script>
+	</body>
+</html>

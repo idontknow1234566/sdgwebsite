@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> QUIZ </title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href = "java1.css">
+		<link rel="stylesheet" type="text/css" href = "style.css">
+	</head>
+	<body>
+		<div id="menu" onClick="menu()">
+			<div class="el_menu" id="first"> <a href="index.html">What are the SDG? </a></div>
+			<div class="el_menu"><a href="problems.html"> Problems </a> </div>
+			<div class="el_menu"><a href="solutions.html"> Solutions </a></div>
+			<div class="el_menu"><a href="progress.html"> Progress </a></div>
+			<div class="el_menu"><a href="organisations.html"> Organisations </a></div>
+		</div>
+		<div id="meaning">
+			<p> What is the meaning of life? </p> 
+			<p>
+				<input type="text" id="shrimp">
+			</p>
+			<button onClick="check();"> submit </button>
+			<div id="result1"> </div>
+		</div>
+		<script>
+			function check() {
+				correct_answer = "shrimp";
+				answer = document.getElementById("shrimp").value;
+				
+				if (answer == correct_answer) { 
+					document.getElementById("result1").innerHTML	= "Correct. " + "SHRIMP GAME!!!!!!"; 
+				} else {
+				document.getElementById("result1").innerHTML = "That's wrong, you unpeeled lettuce. The correct answer is shrimp!" ;
+				}
+				
+			}
+		</script>
+	</body>
+</html>

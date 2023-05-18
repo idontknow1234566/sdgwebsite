@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> QUIZ </title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href = "java1.css">
+		<link rel="stylesheet" type="text/css" href = "style.css">
+	</head>
+	<body>
+		<div id="menu" onClick="menu()">
+			<div class="el_menu" id="first"> <a href="index.html">What are the SDG? </a></div>
+			<div class="el_menu"><a href="problems.html"> Problems </a> </div>
+			<div class="el_menu"><a href="solutions.html"> Solutions </a></div>
+			<div class="el_menu"><a href="progress.html"> Progress </a></div>
+			<div class="el_menu"><a href="organisations.html"> Organisations </a></div>
+		</div>
+		<div id="question1" class="class_block">
+			<p> What is the meaning of life? </p> 
+			<p>
+				<input type="text" id="answer_shrimp">
+			</p>
+		</div>
+		<div id="question2" class="class_none">
+			<p>
+				How many SDGs are there?
+				<input type="text" id="answer2">
+			</p>
+		</div>
+		<div id="question3" class="class_none">
+			<p>
+				Shrimp.
+				<input type="text" id="answer3">
+			</p>
+		</div>
+			<button id= "button_next" onClick="next_question();"> Next question </button>
+			<div id="result"> </div>
+		<script>
+			function next_question() {
+				if(document.getElementById("question1").className == "class_block") {
+					document.getElementById("question1").className ="class_none";
+					document.getElementById("question2").className ="class_block";
+				} else if(document.getElementById("question2").className == "class_block") {
+					document.getElementById("question2").className ="class_none";
+					document.getElementById("question3").className ="class_block";
+					document.getElementById("button_next").innerHTML="Check";
+				} else if(document.getElementById("question3").className ="class_block") {
+					document.getElementById("question3").className = "class_none";
+					document.getElementById("button_next".className = "class_none";
+					check();
+				}
+			}
+		
+			function check() {
+				correct_answer_1 = "shrimp";
+				correct_answer_2 = "17";
+				correct_answer_3 = "Yes";
+				answer_1 = document.getElementById("answer_shrimp").value;
+				answer_2 = document.getElementById("answer2").value;
+				answer_3 = document.getElementById("answer3").value;
+				
+				score = 0;
+				
+				if(answer_1 == correct_answer_1) {
+					score +=1;
+				}
+				if(answer_2 == correct_answer_2) {
+					score +=1;
+				}
+				if(answer_3 == correct_answer_3) {
+					score +=1;
+				}
+			
+				number_of_questions = 3;
+				percent = score/number_of_questions * 100; 
+				
+				document.getElementById("result").innerHTML = "Tasks completed " +percent+"%"+" correctly."
+				
+				if(score == number_of_questions) {
+					document.getElementById("result").innerHTML += " Good job.";
+				}
+				else {
+					document.getElementById("result").innerHTML += " You unpeeled cabbage.";
+				}
+			}
+		</script>
+	</body>
+</html>

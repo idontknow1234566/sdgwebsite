@@ -1,0 +1,51 @@
+<!DOCTYPE html> 
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title> SDG 1 </title>
+		<link rel= "stylesheet" type= "text/css" href = "style.css"> 
+		<link rel= "stylesheet" type= "text/css" href = "adaptive.css">
+	</head>
+	<body id= "main">
+		<div id="menu" onClick="menu()">
+			<div class="el_menu"  id="first" ><a href="index.html">What are the SDG? </a></div>
+			<div class="el_menu"><a href="problems.html"> Problems </a> </div>
+			<div class="el_menu"><a href="solutions.html"> Solutions </a></div>
+			<div class="el_menu"><a href="progress.html"> Progress </a></div>
+			<div class="el_menu"><a href="organisations.html"> Organisations </a></div>
+		</div>
+		<div id="name">
+			<h2> The 1st Sustainable Development goal </h2>
+		</div>
+		<div id= "text5">
+			<h1> Progress </h1>
+		</div>
+		<div id="page4">
+			<div>
+				<p>Globally, the number of people living in extreme poverty declined from 36% in 1990 to 10% in 2015. Ever since 2015, the UN has done this, made lots of progress and did this
+				</p>
+				<p>
+				But the Covid-19 global pandemic has been cancelling the progress that the UN and other organisations made. Many people have lost their jobs because of the lockdown, which made 4 million people live at or below $1,25 per day.
+				</p>
+				<p>
+				Due to Covid we have lost around 4 years of progress - this means that we have to act immediately to achieve the sustainable development goal by 2035
+				</p>
+			</div>
+			<div id="image4">
+				<img id="progressimage" src="progress.PNG">
+			</div>
+		</div>
+		<a class= "aaa" href="#main"> 
+			<img src="upload.png">
+		</a>
+		<script>
+			function menu(){ 
+				const elements = document.querySelectorAll('.el_menu');
+				elements.forEach(function(element) {
+					if (element.className == "el_menu") { element.className += " menu_top_sub_appear";
+					} else { element.className = "el_menu"; } 
+					}); 
+			}
+		</script>
+	</body>
+</html>

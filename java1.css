@@ -1,0 +1,49 @@
+#menu {
+	width: 80%; 
+	height: 100px; 
+	display: flex; 
+	position: fixed;
+	top: 0px;
+	left: 0px; 
+	justify-content: space-around; 
+	transform: translate(14%, 0);
+}
+.el_menu {
+	width: 20%;
+	height: 100%;
+	background: #F24B4B;
+	font-size: 30px; 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: solid white 2px;
+	border-radius: 15px; 
+}
+#main {	
+	width: 80%;
+	margin-top: 0;
+	margin-left: 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.class_block {
+	display: block;
+	margin-top: 110px;
+	margin-left: 20px;
+}
+
+.class_none {
+	display: none;
+}
+
+#result {
+	margin-top: 110px;
+	margin-left: 20px;
+}
+#button_next {
+	margin-top: 110px;
+	margin-left: 20px;
+}

@@ -1,0 +1,162 @@
+#menu {
+	width: 80%; 
+	height: 100px; 
+	display: flex; 
+	position: fixed;
+	top: 0px;
+	left: 0px; 
+	justify-content: space-around; 
+	transform: translate(14%, 0);
+}
+
+#main {	
+	width: 80%;
+	margin-top: 0;
+	margin-left: 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#part1{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+#whatever {
+	margin-top: 200px; 
+}
+
+.el_menu {
+	width: 20%;
+	height: 100%;
+	background: #F24B4B;
+	font-size: 30px; 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: solid white 2px;
+	border-radius: 15px; 
+}
+a {
+	color: black;
+	text-decoration: none;
+}
+#image{
+	width: 60%;
+	padding-top: 100px;
+}
+#sdg1 {
+	width: 100%;	
+}
+.el_menu:hover {
+	background: #FFAC33;
+	color: black;
+	cursor: pointer;
+}
+#name {
+	margin-top: 100px;
+	text-align: center;
+	font-size: 36px;
+}
+#text {
+	height: 1200px;
+	width: 50%; 
+	font-size: 25px;
+	padding-top: 0px;
+}
+.text2 {
+	width: 50%; 
+	font-size: 25px;
+	right: 100px;
+}
+#text3 {
+	width: 50%; 
+	font-size: 20px;
+}
+.aaa {
+	position: fixed;
+	bottom: 15px;
+	right: 15px;
+	width: 80px;
+	height: 80px;
+}
+.aaa img{
+	width: 100%;
+}
+#endpoverty {
+	margin: 10px;
+	width: 900px;
+}
+#image2 {
+	margin-top: 0;
+}
+#around17 {
+	font-size: 25px;
+}
+#button{
+	background: #7DC5CE;
+	height: 100px;
+	width: 200px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-size: 36px;
+	border-radius: 15px; 
+}
+#text4 {
+	font-size: 25px;
+}
+#image3{
+	border: solid #7DC5CE 5px;
+	width: 750px;
+}
+#additionalinfo {
+	font-size: 24px;
+}
+#page4 {
+	display: flex;
+	font-size: 25px;
+	width: 100%;
+}
+#page2part2 {
+	display: flex;
+	flex-wrap: wrap;
+}
+#text5 {
+	font-size: 25px;
+}
+#image4 {
+	width: 90%;
+	border: solid #7DC5CE 5px;
+}
+#progressimage {
+}
+#un {
+	width: 200px;
+}
+
+#links {
+	background: #7DC5CE;
+	font-size: 25px;
+	width: 200px;
+	height: 100px;
+	border-radius: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#resources {
+	font-size: 36px;
+	border: solid #7DC5CE 5px;
+}
+#a_quiz {
+	height: 100px;
+	width: 200px;
+	border: #7DC5CE;
+	border-radius: 15px;
+	background: #7DC5CE;
+	display: flex;
+	justify-content: center;
+	flex-direction: center;
+}

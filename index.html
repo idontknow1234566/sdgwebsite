@@ -1,0 +1,65 @@
+<!DOCTYPE html> 
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title> SDG 1 </title>
+		<link rel= "stylesheet" type= "text/css" href = "style.css"> 
+		<link rel= "stylesheet" type= "text/css" href = "adaptive.css">
+	</head>
+	<body id= "main">
+		<div id="menu" onClick="menu()">
+			<div class="el_menu" id="first"> <a href="index.html">What are the SDG? </a></div>
+			<div class="el_menu"><a href="problems.html"> Problems </a> </div>
+			<div class="el_menu"><a href="solutions.html"> Solutions </a></div>
+			<div class="el_menu"><a href="progress.html"> Progress </a></div>
+			<div class="el_menu"><a href="organisations.html"> Organisations </a></div>
+		</div>
+			
+		<div id="name">
+			<h2> The 1st Sustainable Development goal </h2>
+		</div>
+		<div id="part1">
+			<div id= "text">
+				<h1> What are the Sustainable Development Goals? </h1>
+				<p> 
+					The Sustainable Development goals (SDGs) are a new, universal set of goals, targets and indicators that UN member states will be expected to use to frame their agendas and policies over the next 15 years.
+				</p>
+				<p>
+					The UN promises to achieve all 17 of the Sustainable Development goals before the year 2035.
+				</p>
+			<h2 id="whatever"> The first Sustainable Development goal: No Poverty</h2> 
+			<img id= "sdg1" src="nopoverty.png">
+			</div> 
+			<div id="image">
+				<img id= "sdg1" src="sdg.png">
+				<p class = "text2"> 
+					The first Sustainable Development goal is to cancel poverty around the world. 
+					The aspects include:
+				</p>
+				<p class = "text2" > 
+					-  By 2030, reduce at least by half the proportion of men, women and children of all ages living in poverty in all its dimensions according to regional definitions.
+				</p>
+				<p class = "text2"> 
+					- By 2030, ensure that all men and women, especially the poor and vulnerable, have equal rights and access to economic resources.
+				</p>
+			</div >
+		</div>
+		<div id="">
+			<p> Here's a short quiz to check your understanding of the information!
+			</p>
+			<div id="a_quiz"> <a href="javaquiz.html"> Quiz </a> </div> 
+		</div>
+		<a class= "aaa" href="#main"> 
+			<img src="upload.png">
+		</a>
+		<script>
+			function menu(){ 
+				const elements = document.querySelectorAll('.el_menu');
+				elements.forEach(function(element) {
+					if (element.className == "el_menu") { element.className += " menu_top_sub_appear";
+					} else { element.className = "el_menu"; } 
+					}); 
+			}
+		</script>
+	</body>
+</html>

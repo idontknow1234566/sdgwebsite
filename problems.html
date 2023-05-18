@@ -1,0 +1,58 @@
+<!DOCTYPE html> 
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title> Problems </title>
+		<link rel= "stylesheet" type= "text/css" href = "style.css"> 
+		<link rel= "stylesheet" type= "text/css" href = "adaptive.css">
+	</head>
+	<body id= "main">
+		<div id="menu" onClick="menu()">
+			<div class="el_menu"  id="first" ><a href="index.html">What are the SDG? </a></div>
+			<div class="el_menu"><a href="problems.html"> Problems </a> </div>
+			<div class="el_menu"><a href="solutions.html"> Solutions </a></div>
+			<div class="el_menu"><a href="progress.html"> Progress </a></div>
+			<div class="el_menu"><a href="organisations.html"> Organisations </a></div>
+		</div>
+		
+		<div id="name">
+			<h2> The 1st Sustainable Development goal </h2>
+		</div>
+		<div id= "text3">
+			<h1> Why is SDG 1 important? </h1>
+			<p>
+				It is important to make sure that all people live in normal conditions, being able to afford food, clean water, sanitary conditions and so on. But those aren't always free - which is why people need money. 
+			</p>
+			
+			<div id="page2part2">
+				<div id="mainproblems">
+					<div>
+						<p>
+							Many people around the world are in danger of falling into poverty. The group that is the most endangered one is children, since they cannot earn money on their own and are reliant on their parents. Other social groups that are in danger include non-citizen immigrants and the unemployed. The region with the highest level of poverty is Sub-Saharan Africa. The main cause of poverty is the lack of education, and others include the lack of resources, unnecessarily expensive healthcare and similar. 
+						</p>
+						<h2> The main problems are: </h2>
+						<p id="around17">
+							-  Around 17% of the world's population still lives at or below $1,25 per day. 	<br>
+							- People cannot afford food and medical care. Every human being should have access to those basic needs. <br>
+							- Due to the lack of money and resources, people live in unsanitary conditions.
+						</p>
+					</div>
+					<img id="endpoverty" src="endpoverty.jpg">
+				</div>
+			</div>
+		</div>
+		<div id="button" > <a href="solutions.html"> Solutions </a> </div>
+		<a class= "aaa" href="#main"> 
+			<img src="upload.png">
+		</a>
+		<script>
+			function menu(){ 
+				const elements = document.querySelectorAll('.el_menu');
+				elements.forEach(function(element) {
+					if (element.className == "el_menu") { element.className += " menu_top_sub_appear";
+					} else { element.className = "el_menu"; } 
+					}); 
+			}
+		</script>
+	</body>
+</html>
