@@ -29,11 +29,6 @@
 	align-items: center;
 }
 
-.class_block {
-	display: block;
-	margin-top: 110px;
-	margin-left: 20px;
-}
 
 .class_none {
 	display: none;
@@ -44,6 +39,5 @@
 	margin-left: 20px;
 }
 #button_next {
-	margin-top: 110px;
-	margin-left: 20px;
+
 }

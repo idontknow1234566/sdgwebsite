@@ -1,3 +1,7 @@
+@import url('https://fonts.cdnfonts.com/css/avenir-next-cyr');
+*{
+	font-family: 'Avenir Next Cyr Medium', sans-serif;
+}
 #menu {
 	width: 80%; 
 	height: 100px; 
@@ -60,7 +64,6 @@ a {
 	font-size: 36px;
 }
 #text {
-	height: 1200px;
 	width: 50%; 
 	font-size: 25px;
 	padding-top: 0px;
@@ -158,5 +161,37 @@ a {
 	background: #7DC5CE;
 	display: flex;
 	justify-content: center;
-	flex-direction: center;
+}
+.class_block{
+	font-size: 32px; 
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	height: 600px;
+}
+.class_block div {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+input {
+	
+}
+#quizlink {
+	font-size: 32px;
+}
+#button_next {
+	background: #7DC5CE;
+	width: 150px;
+	height: 80px;
+	border: none;
+	font-size: 18px;
+	border-radius: 15px;
+}
+#questions {
+	display: flex;
+	align-items: flex-start;
+	flex-direction: column;
+	width: 80%;
+	margin-left: 10%;
 }
